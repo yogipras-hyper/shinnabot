@@ -2,10 +2,11 @@
   "name": "shinna-bot",
   "version": "1.0.0",
   "description": "this bot ish bruuuhh",
-  "main": "index.js",
+  "main": "main.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node main.js"
   },
   "repository": {
     "type": "git",
