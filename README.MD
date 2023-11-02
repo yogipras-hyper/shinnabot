@@ -28,6 +28,7 @@ $ npm install
 $ npm start
 ```
 <br />
+</details>
 
 <b><details><summary>Linux</summary></b>
 <b>Install On Terminal</b>
@@ -49,10 +50,12 @@ sudo apt-get install build-essential libcairo2-dev libpango1.0-dev libjpeg-dev l
 npm install
 npm start
 ```
+</details>
 
 <br />
 
 <b><details><summary>Termux</summary></b> 
 Termux still doesn't support it because I use the canvas package which doesn't support Termux so I'm still looking for a way to install canvas on Termux :(
+</details>
 
 
