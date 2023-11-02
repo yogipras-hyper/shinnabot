@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yogipras-hyper/shinna.git"
+    "url": "git+https://github.com/yogipras-hyper/shinnabot.git"
   },
   "keywords": [
     "bot",
@@ -18,9 +18,9 @@
   "author": "yogi",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/yogipras-hyper/shinna/issues"
+    "url": "https://github.com/yogipras-hyper/shinnabot/issues"
   },
-  "homepage": "https://github.com/yogipras-hyper/shinna#readme",
+  "homepage": "https://github.com/yogipras-hyper/shinnabot#readme",
   "dependencies": {
     "@whiskeysockets/baileys": "^6.5.0",
     "canvas": "^2.11.2",
