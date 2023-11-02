@@ -66,4 +66,12 @@ npm start
 Termux still doesn't support it because I use the canvas package which doesn't support Termux so I'm still looking for a way to install canvas on Termux :(
 </details>
 
+## Login With Scan Using Web
+```sh
+node index.js --scanweb
+```
+
+# Report a bug/need help?
+[![Grup WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/62895613293360) 
+
 
