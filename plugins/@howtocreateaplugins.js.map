@@ -1,0 +1,15 @@
+//you can import in here 
+
+
+export default {
+    //this for your command to exec the code
+    cmd: ['yourcommand']
+    //this to filter your command
+    tags: ['info'],
+    //this for display in .menu commmand
+    help: ['yourcommand'],
+    //for trigger a code
+    exec: async function() {
+        //yourcode in here !
+    }
+}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>scan qr</title>
+    <style></style>
+</head>
+<body>
+    <a>hello world</a>
+    <script src="/socket.io/socket.io.js"></script>
+    /* Load the library */
+    <script src="https://cdn.rawgit.com/davidshimjs/qrcodejs/gh-pages/qrcode.min.js"></script>
+
+    /* Basic and simple one */
+    <div id="qrcode"></div>
+    <script type="text/javascript">
+        const socket = io();
+        socket.on('chat message', (msg) => {
+            new QRCode(document.getElementById("qrcode"), `${msg}`);
+            console.log(msg)
+        })
+    </script>
+</body>
+</html>
