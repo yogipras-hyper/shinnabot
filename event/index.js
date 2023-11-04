@@ -81,8 +81,8 @@ export async function participantsUpdate({ id, participants, action }) {
                                  mentionedJid: [jid]
                               }
                             })
-            })
-         }*/
+            })*/
+         }
       }
    } catch (e) {
       throw e
