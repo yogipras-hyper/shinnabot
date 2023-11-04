@@ -2,7 +2,7 @@ import { DisconnectReason } from "@whiskeysockets/baileys"
 import connect from "../lib/connection.js"
 import { Boom } from "@hapi/boom"
 import '../config.js'
-import { welcome, goodbye } from '../lib/welcome.js'
+//import { welcome, goodbye } from '../lib/welcome.js'
 
 export async function connectionUpdate(update) {
     //refrensi dari hisoka-clone di hisoka.js
@@ -64,25 +64,25 @@ export async function participantsUpdate({ id, participants, action }) {
          // action
          if (action == "add") {
             try {
-            welcome(this.getName(jid), profile, metadata.subject, metadata.participants.length).then((v) => {
+            /*welcome(this.getName(jid), profile, metadata.subject, metadata.participants.length).then((v) => {
                this.sendFile(id, v.toBuffer(), 'pp.jpg', `Welcome @${jid.split("@")[0]} to "${metadata.subject}"`, null, false, {
                               contextInfo: {
                                     mentionedJid: [jid]
                               }
                            })
-            })
+            })*/
          } catch (e) {
             throw e
          }
          } else if (action == "remove") {
-            goodbye(this.getName(jid), metadata.participants.length, profile).then((v) => {
+            /*goodbye(this.getName(jid), metadata.participants.length, profile).then((v) => {
                this.sendFile(id, v.toBuffer(), 'pp.jpg', `Goodbye @${jid.split("@")[0]} from "${metadata.subject}"`, null, false, {
                               contextInfo: {
                                  mentionedJid: [jid]
                               }
                             })
             })
-         }
+         }*/
       }
    } catch (e) {
       throw e
